@@ -1,0 +1,11 @@
+API REST
+GET - BUSCAR INFORMACAO 
+POST - INSERIR INFORMACAO
+PUT - EDITAR INFORMACAO
+DELETE - REMOVER 
+PATCH - ALTERAR PONTUALMENTE UMA INFORMACAO.
+
+OS TIPOS DE PARAMETROS
+BODY - {USADO GET POST PATCH}
+query PARAMETROS - http://localhost:8085/user?nome=Deivid&idade=29 OPCIONAIS
+PARAMETROS DE ROTAS - http://localhost:8085/users/{nome}/{idade}       // parametros de rotas sao obrigatorios
