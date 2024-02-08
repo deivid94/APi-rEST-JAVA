@@ -7,14 +7,16 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class StudentEntity {
 
-  private UUID id;
-  private String email;
-  private List<CertificationStudentEntity> certificationStudentEntities;
 
+public class CertificationStudentEntity {
+    private UUID id;
+    private UUID StudentId;
+    private String Tecnologies;
+    private int grate;
+    private List<AwswersCertificationsEntity> awswersCertificationsEntities;
+  
 }
